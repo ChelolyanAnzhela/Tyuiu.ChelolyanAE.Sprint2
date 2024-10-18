@@ -32,15 +32,26 @@ namespace Tyuiu.ChelolyanAE.Sprint2.Task5.V9.Lib
                     throw new ArgumentException($"Номер месяца указан некорректно. Значение {m} не соответствует условию");
             }
 
-            if (n < count)
-            {
-                res = ($"{n + 1}.{m}");
-            }
-            else
-            {
-                res = ($"{1}.{m + 1}");
-            }
-            return res;
+            
+                if (n < m)
+                {
+                    if (n <= 9)
+                    {
+                         res = ($"0{n}.0{m}");
+                    }
+                    else
+                    {
+                         res = ($"0{n}.{m + 1}");
+                    }
+
+;
+                }
+                else
+                {
+                    res = ($"{01}.{m + 1}");
+                }
+                return res;
+            
         }
     }
 }
