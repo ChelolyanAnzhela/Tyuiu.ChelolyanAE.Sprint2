@@ -35,13 +35,13 @@ namespace Tyuiu.ChelolyanAE.Sprint2.Task5.V9.Lib
             
                 if (n < m)
                 {
-                    if (n <= 9)
+                    if (n+1 <= 9)
                     {
-                         res = ($"0{n}.0{m}");
+                         res = ($"0{n+1}.0{m}");
                     }
                     else
                     {
-                         res = ($"0{n}.{m + 1}");
+                         res = ($"{n}.{m}");
                     }
 
 ;
