@@ -33,7 +33,7 @@ namespace Tyuiu.ChelolyanAE.Sprint2.Task6.V9.Lib
                 }
                 else
                 {
-                    res = ($"{n+1}.{m}");
+                    res = ($"{n+1}.0{m}");
                 }
 
 ;
