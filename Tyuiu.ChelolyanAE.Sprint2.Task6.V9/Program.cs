@@ -10,8 +10,8 @@ namespace Tyuiu.ChelolyanAE.Sprint2.Task6.V9
             Console.Title = "Спринт #2 |Выполнила: Челольян А. Е. | ИИПБ-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема:Оператор switch                                                   *");
-            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Тема:Получение результата из switch                                     *");
+            Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнила: Челольян Анжела Евгеньевна | ИИПБ-24-2                       *");
             Console.WriteLine("***************************************************************************");
